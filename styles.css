@@ -1,0 +1,137 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.fa-size{
+  font-size: 15px;
+}
+
+/*navbar section*/
+.navbar{
+  padding: 0;
+}
+.bg-color{
+  background-color: black;
+}
+.nav-link,.item-right{
+  color: white;
+  margin: 10px 10px;
+}
+.nav-link:hover, .nav-item:hover, .dropdown-item:hover{
+  color: black;
+  background-color: #999;
+}
+.btn{
+  color: white;
+  border: 0;
+}
+.btn:hover{
+  background-color: red;
+}
+
+/*band Section*/
+#band{
+  background-color: white;
+  margin:5% 30%;
+  text-align: center;
+}
+.sub-heading{
+  font-weight: 100px;
+  margin-top: 30px;
+}
+.band-paragraph{
+  margin: 40px 0;
+  text-align: left;
+  font-weight: 500px;
+}
+.img-bandmember{
+  margin: 0 3px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+}
+
+/*tour date*/
+#tour-date{
+  background-color: black;
+}
+.tour-date1{
+    margin:5% 30%;
+  text-align: center;
+  color: white;
+}
+.tour-title{
+  padding-top: 80px;
+}
+
+.month{
+  margin: 40px 0;
+}
+.breadcrumb{
+  margin: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+}
+span{
+  margin-left: 5px;
+  background-color: red;
+}
+.span-right{
+  margin-left: 600px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+.card-text,.card-title,pre{
+  color: black;
+  text-align: left;
+}
+
+.btn{
+  float: left;
+}
+
+.row-adjust{
+  padding-bottom: 80px;
+}
+/*contact section*/
+#contact-page{
+  background-color: white;
+  color: black;
+    margin:5% 30%;
+}
+.contact-heading{
+  text-align: center;
+}
+.btn-right{
+  float: right;
+  margin: 10px 0 100px 0;
+}
+.style{
+  width: 100px;
+}
+h6{
+  margin: 40px 0 60px 0;
+}
+.message{
+  margin: 26px 0 0 16px ;
+  width: 100%;
+}
+
+/* map section */
+.map-adjustment{
+  width: 100%;
+}
+
+/* footer section */
+#footer{
+  text-align: center;
+}
+.fontawesome{
+  margin-top: 100px;
+}
+.margin{
+  margin: 5px;
+}
