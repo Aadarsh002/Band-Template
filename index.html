@@ -18,23 +18,21 @@
   <!--fontfamily-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
-  <title>Band Template</title>
+  <title>Hello, world!</title>
 </head>
 
 <body>
   <section id="home">
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg  bg-color">
-
+    <nav class="navbar  navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">HOME</a>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#band">BAND</a>
           </li>
@@ -106,16 +104,16 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-4">
-          <h5>Name</h5>
+        <div class="col-lg-4 col-md-12">
+          <h5 class="name">Name</h5>
           <img class="img-bandmember" src="images/bandmember.jpg" alt="Band Member">
         </div>
-        <div class="col-4">
-          <h5>Name</h5>
+        <div class="col-lg-4 col-md-12">
+          <h5 class="name">Name</h5>
           <img class="img-bandmember" src="images/bandmember.jpg" alt="Band Member">
         </div>
-        <div class="col-4">
-          <h5>Name</h5>
+        <div class="col-lg-4 col-md-12">
+          <h5 class="name">Name</h5>
           <img class="img-bandmember" src="images/bandmember.jpg" alt="Band Member">
         </div>
       </div>
@@ -152,7 +150,7 @@
 
 
       <div class="row row-adjust">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12">
           <div class="card">
             <img class="card-img-top img-top" src="images/newyork.jpg" alt="Card image cap">
             <div class="card-body">
@@ -163,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12">
           <div class="card">
             <img class="card-img-top img-top" src="images/paris.jpg" alt="Card image cap">
             <div class="card-body">
@@ -174,7 +172,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12">
           <div class="card">
             <img class="card-img-top img-top" src="images/sanfran.jpg" alt="Card image cap">
             <div class="card-body">
@@ -212,11 +210,11 @@
       <div class="col-6">
         <div class="row">
           <div class="col-6">
-            <input type="text" name="firstName" placeholder="Name">
+            <input class="name"type="text" name="firstName" placeholder="Name">
 
           </div>
           <div class="col-6">
-            <input type="text" name="fullName" placeholder="Email">
+            <input class="email" type="text" name="fullName" placeholder="Email">
           </div>
           <input class="message" type="text" name="message" placeholder="message">
         </div>

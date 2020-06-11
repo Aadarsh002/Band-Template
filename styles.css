@@ -9,17 +9,18 @@ body {
 /*navbar section*/
 .navbar{
   padding: 0;
+  background-color: black !important;
 }
-.bg-color{
-  background-color: black;
+.navbar-brand{
+  padding: 15px 15px;
 }
-.nav-link,.item-right{
-  color: white;
+.nav-link,.item-right,.navbar-brand{
+  color: white !important;
   margin: 10px 10px;
 }
-.nav-link:hover, .nav-item:hover, .dropdown-item:hover{
+.nav-link:hover, .nav-item:hover,.navbar-brand:hover, .dropdown-item:hover{
   color: black;
-  background-color: #999;
+  background-color: #999 !important;
 }
 .btn{
   color: white;
@@ -29,12 +30,18 @@ body {
   background-color: red;
 }
 
+
+
+@media (max-width:752px) {
+}
+
 /*band Section*/
 #band{
   background-color: white;
   margin:5% 30%;
   text-align: center;
 }
+
 .sub-heading{
   font-weight: 100px;
   margin-top: 30px;
@@ -50,6 +57,27 @@ body {
   height: 150px;
   width: 150px;
 }
+
+
+
+@media (max-width: 752px) {
+  #band{
+    margin: 5% 3%;
+  }
+
+  .img-bandmember{
+    margin: 0 3px;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+
+  }
+  .name{
+    margin-top: 50px;
+  }
+}
+
+
 
 /*tour date*/
 #tour-date{
@@ -96,6 +124,21 @@ span{
 .row-adjust{
   padding-bottom: 80px;
 }
+
+
+@media (max-width: 752px) {
+  .tour-date1{
+      margin:5% 3%;
+    text-align: center;
+    color: white;
+  }
+  .card{
+    margin: 20px 0;
+  }
+  .span-right{
+    margin-left: 100px;
+  }
+}
 /*contact section*/
 #contact-page{
   background-color: white;
@@ -120,10 +163,27 @@ h6{
   width: 100%;
 }
 
+
+@media (max-width:752px) {
+  #contact-page{
+      margin:5% 3%;
+  }
+  .email{
+    width:  100%;
+  }
+  .name{
+    width: 100%;
+      margin-top: 0;
+  }
+}
+
+
+
 /* map section */
 .map-adjustment{
   width: 100%;
 }
+
 
 /* footer section */
 #footer{
